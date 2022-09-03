@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 1rem;
+}
+
+.container__header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+
+    p{
+        margin-right: 10px;
+    }
+
+    h3{
+        font-family: lucida sans regular;
+    }
+}
+
+.container__body{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 5px;
+    width: 90%;
+
+}

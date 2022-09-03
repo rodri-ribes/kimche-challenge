@@ -1,0 +1,15 @@
+.container{
+    width: 670px;
+
+    .notResults{
+        font-family: lucida sans;
+        text-align: center;
+        color: rgb(70, 70, 70);
+    }
+}
+
+.container__group{
+    .container__group_name{
+        font-size: 1.5rem;
+    }
+}
