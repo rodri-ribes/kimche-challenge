@@ -57,7 +57,6 @@ const App = () => {
 
   useEffect(() => {
     if (countries) setSearchCountry(countries)
-    console.log(countries)
   }, [countries])
 
   //--------- logic of Component ---------
