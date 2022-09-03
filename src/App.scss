@@ -11,7 +11,7 @@ body{
   width: 100%;
   margin: 0 auto;
   height: auto;
-  min-height: calc(100vh - 13.20vh - 50px );
+  min-height: calc(100vh - 13.14vh - 50px );
 
   .container__content{
     display: flex;
@@ -43,9 +43,7 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     width: 90%;
-    height: 100vh;
-    min-height: calc(100vh - 13.20vh - 50px );
+    height: auto;
   }
-  
- 
+
 }
